@@ -12,7 +12,7 @@ pack.sourceDir <- function(path, trace = TRUE, ...) {
 }
 
 #Check if function exists in package
-pack.functionPackage<-function(pack,f){
+pack.functiinPackage<-function(pack,f){
   tryCatch(fs=ls(package:pack),error= function(e) return(FALSE))
   return(f %in% pack)
 }
