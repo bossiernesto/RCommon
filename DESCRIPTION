@@ -1,0 +1,13 @@
+Package: pkgname
+Version: 0.1-0
+Date: 2012-10-26
+Title: My First Collection of Functions
+Authors@R: c(person("Ernesto", "Bossi", role = c("aut", "cre"))
+Author: Ernesto Bossi 
+Maintainer: Ernesto Bossi
+Depends: R (>= 2.15.1)
+Suggests: HelperFx
+Description: Small functions that will be of use for anyone.
+License: GPL (>= 2)
+URL: https://github.com/bossiernesto/RCommon
+BugReports: https://github.com/bossiernesto/RCommon/issues
